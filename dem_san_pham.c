@@ -87,7 +87,7 @@ VOID HIENTHI_SP()
      SOMAX=10;
   
    
-   SETUP_TIMER_0(T0_EXT_H_TO_L|T0_DIV_1);  
+   SETUP_TIMER_0(T0_EXT_H_TO_L|T0_DIV_1);  //chan_out_cua_cam_bien_vao_pinA4
    SET_TIMER0(0);
    
 while(true)
